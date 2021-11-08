@@ -1,5 +1,5 @@
-# formulario-soma
-Formulário simples com algumas validações simples.
-- Caso algum campo esteja vazio, aparecera a mensagem "Preencha todos os campos".
-- Caso algum campo estaja com um numero abaixo de zero, devera aparecer uma mensagem escrito "Não é permitido numeros abaixos de zero".
-- Ao clicar no botão de soma, os dois valores deverão ser somados e apresentados no campo resultado. 
+Formulario simples de soma.
+
+- Caso algum campo esteja vazio deverá aparecer a mensagem "Preencha todos os campos".
+- Caso tenha algum numero abaixo de zero deverá aparecer a mensagem "Não é permitido numeros abaixos de zero".
+- Ao clicar no botão "Somar", a função devera somar os dois campos e aparecer o resultado no campo "Resultado".
