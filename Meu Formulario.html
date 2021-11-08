@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Formulario de soma</title>
+    </head>
+
+<body>  
+  
+  <h2>Formulário De Soma</h2>
+      <!--Design do background-->
+      <div style="display: flex;
+      flex-direction: column;
+      background: rgb(13, 186, 216);
+      width: 200px;
+      height: 250px;
+      align-items: center;
+      justify-content: space-evenly;
+      border-radius: 20px;" >
+
+    <!-- Soma dos valores!-->
+    Primeiro Valor: 
+    <input type="text" id="soma1" > <br> 
+
+    Segundo Valor:
+    <input type="text" id="soma2" > <br>  
+
+    <!-- Botão de soma-->
+    <button id="soma" onclick="validar()">Resultado</button> <br> 
+
+    <!-- Resultado-->
+    Resultado:
+    <input type="text" id="resultado" > </div>
+
+    <!-- Chamar javascript-->
+    <script src="somar.js"></script> 
+  
+  </body>
+</html>
